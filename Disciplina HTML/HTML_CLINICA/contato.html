@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TQ Clínica de Terapias</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <img width="100%" alt="Descrição do logotipo da TQ Clínica Terapeutica" src="imagens/LogoTQ.png" >                
+            <strong>
+                <ul>
+                    <li>Menu</li><br>
+                    <li><a href="index.html">Página Inicial</a></li><br>
+                    <li><a href="clinica.html">Sobre a clínica</a></li><br>
+                    <li><a href="atendimento.html">Horário de Atendimento</a></li><br>
+                    <li><a href="contato.html">Contato e Localização</a></li><br>
+                </ul>
+            </strong>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="Imagens/contatos.png">
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+                <h1>Contato</h1>
+                <h4 >Preencha o formulário e retornaremos o contato o mais breve possível!</h4>
+                <form name="contato" onsubmit="alert('Formulário Enviado! Retornaremos o Contato em breve!')" autocomplete="off" target="_blank" method="post" action="#">
+                    <fieldset>
+                        <legend>Dados pessoais</legend>
+                        <label>Nome:</label> <input type="text" name="Nome" />     
+                        <label>Idade:</label> <input type="number" name="Idade" /><br><br>
+                        <label>e-mail:</label> <input type="email" name="e-mail" />     
+                        <label>telefone:</label> <input type="text" name="Telefone" /><br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Preferências</legend>    
+                        <p>Quais terapias deseja informações?</p>
+                        <input type="checkbox" name="terapia[]" value="acupuntura"> Acupuntura <br>
+                        <input type="checkbox" name="terapia[]" value="yoga"> Yoga <br>
+                        <input type="checkbox" name="terapia[]" value="neuropsicopedagogia"> Neuropsicopedagogia <br>
+                        <input type="checkbox" name="terapia[]" value="to"> Terapia Ocupacional <br>
+                        <p>Melhor meio de contato:</p>
+                        <input type="radio" name="contato" value="email"> E-Mail <br>
+                        <input type="radio" name="contato" value="telefone"> Telefone <br>
+                    </fieldset>
+                    <button type="submit">Enviar</button>
+                </form>
+                <h1>Localização</h1>
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.3863750324854!2d-41.92541228446365!3d-22.527194730100756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x97b4aa15409f9d%3A0x646f6aaeb4b93975!2sPra%C3%A7a%20da%20Baleia!5e0!3m2!1spt-BR!2sbr!4v1667520869531!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
+                </div>                
+            </div>
+            <div class="footer">
+                <strong>
+                    <p>Praça da Baleia - Costa Azul<br>
+                    Rio das Ostras - RJ<br>
+                    e-mail: <a href="mailto:tq.terapeuta.marcial@outlook.com">tq.terapeuta.marcial@outlook.com</a><br>
+                    Telefone e Whatsapp: (21) 99999-9999</p>
+                </strong>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

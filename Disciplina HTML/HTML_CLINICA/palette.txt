@@ -1,0 +1,25 @@
+/* Coolors Exported Palette - https://coolors.co/184d43-fefefe-be3538-975d8a-705c7b */
+
+/* CSV */
+184D43,FEFEFE,BE3538,975D8A,705C7B
+
+/* With # */
+#184D43, #FEFEFE, #BE3538, #975D8A, #705C7B
+
+/* Array */
+["184D43","FEFEFE","BE3538","975D8A","705C7B"]
+
+/* Object */
+{"Brunswick Green":"184D43","White":"FEFEFE","Madder Lake":"BE3538","Antique Fuchsia":"975D8A","Chinese Violet":"705C7B"}
+
+/* Extended Array */
+[{"name":"Brunswick Green","hex":"184D43","rgb":[24,77,67],"cmyk":[69,0,13,70],"hsb":[169,69,30],"hsl":[169,52,20],"lab":[29,-20,1]},{"name":"White","hex":"FEFEFE","rgb":[254,254,254],"cmyk":[0,0,0,0],"hsb":[0,0,100],"hsl":[0,0,100],"lab":[100,0,0]},{"name":"Madder Lake","hex":"BE3538","rgb":[190,53,56],"cmyk":[0,72,71,25],"hsb":[359,72,75],"hsl":[359,56,48],"lab":[44,54,31]},{"name":"Antique Fuchsia","hex":"975D8A","rgb":[151,93,138],"cmyk":[0,38,9,41],"hsb":[313,38,59],"hsl":[313,24,48],"lab":[47,31,-15]},{"name":"Chinese Violet","hex":"705C7B","rgb":[112,92,123],"cmyk":[9,25,0,52],"hsb":[279,25,48],"hsl":[279,14,42],"lab":[42,14,-14]}]
+
+/* XML */
+<palette>
+  <color name="Brunswick Green" hex="184D43" r="24" g="77" b="67" />
+  <color name="White" hex="FEFEFE" r="254" g="254" b="254" />
+  <color name="Madder Lake" hex="BE3538" r="190" g="53" b="56" />
+  <color name="Antique Fuchsia" hex="975D8A" r="151" g="93" b="138" />
+  <color name="Chinese Violet" hex="705C7B" r="112" g="92" b="123" />
+</palette>
